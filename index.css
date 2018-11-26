@@ -1,0 +1,41 @@
+*{margin: 0;padding: 0}
+h3{
+    color: #FFFFFF;
+    background-color: #FFC0CB;
+    line-height: 60px;
+    text-align: center;
+}
+h4,p,li{
+    /* 让光标移动到上面去的时候变成一只手 */
+    cursor: pointer;
+    padding:5px;
+}
+h4:hover{
+    opacity:.5;
+}
+div{
+    width:400px;
+    margin:0 auto;
+}
+img{
+    width:400px;
+    height:250px;
+}
+p:hover{
+    color:pink;
+}
+li:hover{
+    color:deeppink
+}
+li{
+    padding:5px;
+}
+dl{
+    margin-top:15px;
+}
+dl:hover{
+    color:deeppink;
+}
+dt{
+    margin:5px;
+}
